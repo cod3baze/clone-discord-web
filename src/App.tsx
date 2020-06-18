@@ -1,8 +1,17 @@
-import React from 'react';
-
+import React from "react";
+// "COMPONENTS"
+import Layout from "./components/Layout";
+// STYLUS
+import GlobalStyles from "./styles/GlobalStyles";
 
 const App = () => {
-  return (<h1>Genesys</h1>);
-}
+  return (
+    <>
+      <Layout />
+
+      <GlobalStyles />
+    </>
+  );
+};
 
 export default App;
