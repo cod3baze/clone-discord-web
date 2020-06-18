@@ -23,6 +23,6 @@ export const ExpandIcon = styled(ExpandMore)`
   width: 28px;
   height: 28px;
 
-  color: var(--white);
   cursor: pointer;
+  color: var(--white);
 `;
